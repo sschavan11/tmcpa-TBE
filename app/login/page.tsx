@@ -178,7 +178,7 @@ function LoginForm() {
             maxWidth: 380,
           }}
         >
-          Anonymous peer evaluation for the EMGT 5220 semester project. Sign in or
+          Anonymous peer evaluation for the EMGT 6600 semester project. Sign in or
           register with your Northeastern email.
         </p>
 

@@ -30,7 +30,7 @@ export function StudentTopBar({ student }: { student: StudentRow }) {
               textTransform: 'uppercase',
             }}
           >
-            Northeastern · EMGT 5220
+            Northeastern · EMGT 6600
           </span>
         </div>
         <div className="flex items-center gap-3">
