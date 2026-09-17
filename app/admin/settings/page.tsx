@@ -110,7 +110,7 @@ export default async function AdminSettings() {
               teams={teamList}
               grades={gradesByDeliverable.get(d.id) ?? new Map()}
               memberCounts={memberCounts}
-              canDelete={dels.length > 1}
+              canDelete={true}
             />
           ))}
         </div>
