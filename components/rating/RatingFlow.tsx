@@ -342,6 +342,22 @@ export function RatingFlow({
               </strong>{' '}
               Did they contribute productively and usefully to team goals?
             </p>
+            <ul
+              style={{
+                fontSize: 11,
+                color: 'var(--ink-3)',
+                marginTop: -4,
+                marginBottom: 12,
+                paddingLeft: 16,
+              }}
+            >
+              <li>5 – Ideal level of contribution</li>
+              <li>4 – A little below ideal</li>
+              <li>3 – Below ideal</li>
+              <li>2 – Marginal level of contribution</li>
+              <li>1 – Minimal level of contribution</li>
+              <li>0 – No contribution — free riding</li>
+            </ul>
             <label
               className="label-tiny"
               style={{ display: 'block', marginBottom: 6 }}
@@ -373,6 +389,22 @@ export function RatingFlow({
               </strong>{' '}
               Came prepared, respected others, was flexible?
             </p>
+            <ul
+              style={{
+                fontSize: 11,
+                color: 'var(--ink-3)',
+                marginTop: -4,
+                marginBottom: 12,
+                paddingLeft: 16,
+              }}
+            >
+              <li>5 – Ideal level of professionalism</li>
+              <li>4 – A little below ideal</li>
+              <li>3 – Below ideal</li>
+              <li>2 – Marginal level of professionalism</li>
+              <li>1 – Minimal level of professionalism</li>
+              <li>0 – No professionalism</li>
+            </ul>
             <label
               className="label-tiny"
               style={{ display: 'block', marginBottom: 6 }}
