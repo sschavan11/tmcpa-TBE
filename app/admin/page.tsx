@@ -151,7 +151,27 @@ export default async function AdminOverview({ searchParams }: Props) {
         <h1 className="serif" style={{ fontSize: 44, lineHeight: 1.1 }}>
           Course <em style={{ color: 'var(--accent)' }}>overview.</em>
         </h1>
-        <DeliverableSelect deliverables={dels} selectedId={currentDel.id} />
+        <div className="flex items-center gap-3">
+          <DeliverableSelect deliverables={dels} selectedId={currentDel.id} />
+          
+          <a
+            href="/api/admin/export"
+            className="tmcpa-btn"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              padding: '8px 16px',
+              fontSize: 14,
+              border: '1px solid var(--line)',
+              borderRadius: 8,
+              textDecoration: 'none',
+              color: 'var(--ink-1)',
+            }}
+          >
+            Export to Excel
+          </a>
+        </div>
       </div>
       <p style={{ color: 'var(--ink-2)', marginBottom: 32, fontSize: 15 }}>
         EMGT 6600 · Spring 2026 · {teamList.length}{' '}
